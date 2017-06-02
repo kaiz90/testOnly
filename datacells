@@ -1,0 +1,40 @@
+/tetration/flows/ Table columns: 
+
+['timestamp', 'src_address', 'src_port', 'dst_address', 'dst_port',
+       'proto', 'key_type', 'start_timestamp', 'fwd_fin_count',
+       'rev_fin_count', 'fwd_syn_count', 'rev_syn_count', 'fwd_rst_count',
+       'rev_rst_count', 'fwd_psh_count', 'rev_psh_count', 'fwd_ack_count',
+       'rev_ack_count', 'fwd_urg_count', 'rev_urg_count', 'fwd_ece_count',
+       'rev_ece_count', 'fwd_cwr_count', 'rev_cwr_count', 'fwd_nc_count',
+       'rev_nc_count', 'fwd_pkts', 'rev_pkts', 'fwd_bytes', 'rev_bytes',
+       'fwd_null_count', 'rev_null_count', 'fwd_xmas_count', 'rev_xmas_count',
+       'fwd_tiny_count', 'rev_tiny_count', 'fwd_finnoack_count',
+       'rev_finnoack_count', 'fwd_synfin_count', 'rev_synfin_count',
+       'fwd_synrst_count', 'rev_synrst_count', 'fwd_allzero_count',
+       'rev_allzero_count', 'fwd_pingdeath_count', 'rev_pingdeath_count',
+       'src_country', 'dst_country', 'src_city', 'dst_city', 'src_tenant_name',
+       'dst_tenant_name', 'src_hostname', 'dst_hostname',
+       'server_app_latency_usec', 'bandwidth_bytes_per_second', 'vrf_id',
+       'src_epg_name', 'dst_epg_name', 'src_epg_id', 'dst_epg_id',
+       'fwd_policy_permitted', 'fwd_policy_misdropped', 'fwd_policy_escaped',
+       'fwd_policy_rejected', 'rev_policy_permitted', 'rev_policy_misdropped',
+       'rev_policy_escaped', 'rev_policy_rejected', 'srtt_available',
+       'srtt_usec', 'src_scope_id', 'src_scope_name', 'src_enforcement_epg_id',
+       'src_enforcement_epg_name', 'src_experimental_epg_id',
+       'src_experimental_epg_name', 'src_user_tags', 'src_is_internal',
+       'dst_scope_id', 'dst_scope_name', 'dst_enforcement_epg_id',
+       'dst_enforcement_epg_name', 'dst_experimental_epg_id',
+       'dst_experimental_epg_name', 'dst_user_tags', 'dst_is_internal',
+       'dynamic_attrs'],
+      dtype='object')
+
+/tetration/machine/ Table columns: 
+
+timestamp, hostname, os, os_version, rx_packet_count, rx_byte_count, rx_flow_count, tx_packet_count, tx_byte_count, tx_flow_count
+
+
+/tetration/inventory/ Table columns: 
+
+timestamp, vrf_id, address_type, ip_address, tags_scope_id, tags_scope_name, tags_enforcement_epg_id, tags_enforcement_epg_name, tags_experimental_epg_id, tags_experimental_epg_name, tags_user_tags, tags_is_internal, dynamic_attrs, rx_packet_count, rx_byte_count, rx_flow_count, tx_packet_count, tx_byte_count, tx_flow_count
+
+
