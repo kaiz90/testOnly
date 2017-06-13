@@ -1,0 +1,2 @@
+{"src_hostname":"host1","src_address":"1.2.3.4","src_port":123,"dst_hostname":"host1","dst_address":"1.2.3.5","dst_port":321,"vrf":1,"proto":3,"tenant_id":1,"packet_count":1,"byte_count":1,"src_scope":["scope1","scope2"],"dst_scope":["scope3","scope4"],"source_is_client":true}
+{"src_hostname":"host1","src_address":"1.2.3.4","src_port":123,"dst_hostname":"host3","dst_address":"1.2.3.6","dst_port":321,"vrf":1,"proto":3,"tenant_id":1,"packet_count":1,"byte_count":1,"src_scope":["scope2"],"dst_scope":["scope1","scope4"],"source_is_client":true}
